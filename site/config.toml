@@ -22,11 +22,15 @@ canonifyurls = true
   [[params.navlinks]]
   name = "Home"
   url = "post/"
+
+  [[params.navlinks]]
+  name = "Drawing"
+  url = "drawing/"
   home = true
 
   [[params.navlinks]]
   name = "About"
-  url = "about.md"
+  url = "about/"
 
   [params.social]
   facebook      = "full page or profile url in facebook"
