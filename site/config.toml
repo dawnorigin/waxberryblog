@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Casper Theme"
-theme = "hugo-theme-casper"
-disqusShortname = "spf13"
+title = "高杨梅的窝"
+theme = "hugo-creative-portfolio-theme"
+#disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -10,21 +10,32 @@ paginate = 10
 canonifyurls = true
 
 [params]
-  description = "this is my description"
-  cover = "images/cover.jpg"
-  author = "Valère JEANTET"
-  authorlocation = "Paris, France"
-  authorwebsite = "http://vjeantet.fr"
-  bio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..."
-  githubName = "vjeantet"
-  twitterName = "vjeantet"
-  # facebookName = ""
-  # linkedinName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
+  style = "default"
+  description = "Describe your website"
+  copyright = "&copy;2019 Gaoyangmei"
+  sidebarAbout = [
+    "My blog"
+
+  ]
+  email = "gaoymmail@gmail.com"
+  
+  [[params.navlinks]]
+  name = "Home"
+  url = "post/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about.md"
+
   [params.social]
-    twitter = "your_twitter"
+  facebook      = "full page or profile url in facebook"
+  googleplus    = "full profile url in googleplus"
+  email         = "gaoymmail@gmail.com"
+  twitter       = "full profile url in twitter"
+  linkedin      = "full profile url in linkedin"
+  stackoverflow = "full profile url in stackoverflow"
+  instagram     = "full profile url in instagram"
+  github        = "full profile url in github"
+  youtube       = "full profile url in youtube"
+  whatsapp      = "wa.me service link"
