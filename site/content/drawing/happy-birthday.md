@@ -1,10 +1,10 @@
 +++
 showonlyimage = true 
 draft = false 
-image = "http://pxnbq22mw.bkt.clouddn.com/context/drawing/IMG_20190909_213740.jpg?imageView2/2/w/220/h/340" 
+image = "https://raw.githubusercontent.com/dawnorigin/pic-store/waxberry/img/IMG_20190909_213740.jpg" 
 date = "2019-09-12" 
 title = "Happy birthday!" 
 weight = 0 
 +++
 
-![drawing](http://pxnbq22mw.bkt.clouddn.com/context/drawing/IMG_20190909_213740.jpg)  
+![drawing](https://raw.githubusercontent.com/dawnorigin/pic-store/waxberry/img/IMG_20190909_213740.jpg)  
